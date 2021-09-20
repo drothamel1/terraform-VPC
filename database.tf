@@ -1,5 +1,5 @@
 resource "aws_db_instance" "LUIT_db" {
-  allocated_storage    = 1
+  allocated_storage    = 5
   engine               = "mysql"
   engine_version       = "5.7"
   instance_class       = "db.t2.micro"
